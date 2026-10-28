@@ -1,0 +1,20 @@
+[project]
+name = "real-time-kafka-data-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "authlib>=1.9.1",
+    "cachetools>=7.2.6",
+    "certifi>=2026.10.23",
+    "confluent-kafka[avro,schemaregistry]>=2.16.0",
+    "faker>=40.43.0",
+    "fastavro>=1.13.1",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+]
+
+[tool.pyrefly]
+python-interpreter-path = ".venv/bin/python"
